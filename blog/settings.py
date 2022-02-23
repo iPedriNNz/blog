@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_summernote',
+    'django.contrib.humanize',
 ]
 
 MIDDLEWARE = [
@@ -151,3 +152,13 @@ MESSAGE_TAGS = {
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+
+try:
+    from .local_settings import *
+
+except:
+    pass
