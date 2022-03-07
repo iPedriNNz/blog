@@ -89,7 +89,7 @@ DATABASES = {
         'NAME': 'blog_django',
         'HOST': '127.0.0.1',
         'PORT': '3306',
-        'USER': 'root',
+        'USER': 'cursopython',
         'PASSWORD': 'curs0Pyth0n@169',
     }
 }
