@@ -88,5 +88,4 @@ server {
 	#access_log  /var/log/nginx/pedroferreirapy.tk-access.log;
   error_log   /var/log/nginx/pedroferreirapy.tk-error.log;
 
-	include /etc/nginx/common/protect.conf;
 }
