@@ -90,4 +90,3 @@ server {
 
 	include /etc/nginx/common/protect.conf;
 }
-
