@@ -1,6 +1,7 @@
 server {
 	listen 80;
 	listen [::]:80;
+	server_name  www.pedroferreirapy.tk pedroferreirapy.tk;
 
 	listen 443 ssl http2;
 	listen [::]:443 ssl http2;
