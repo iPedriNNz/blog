@@ -41,8 +41,6 @@
             <small class="text-muted">{{ comentario.data_comentario }}</small>
             <p class="mb-1">{{ comentario.comentario }}</p>
             {% endfor %}
-
-
         </div>
         <div class="col-xl"></div>
     </div>
@@ -56,23 +54,29 @@
 
             <form method="POST" action="#envia_comentario">
                 {% csrf_token %}
-                <table class="table">
-                    <tr>
-                        {{ form }}
-                    <tr>
-                        <td colspan="2">
-                            {% include 'parciais/_messages.html' %}
-                            <input id="envia_comentario" type="submit" class="btn btn-primary"
-                                value="Enviar">
-                        </td>
-                    </tr>
-                </table>
-            </form>
 
+                {% for hidden_field in form.hidden_fields %}
+                    {{ hidden_field }}
+                {% endfor %}
+
+                {% for visible_field in form.visible_fields %}
+                 <div class="form-group">
+                     {{ visible_field.label_tag }}<br>
+
+                     {{ visible_field }}
+
+                     {{ visible.field.errors }}
+                </div>
+
+                {% endfor %}
+
+                {% include 'parciais/_messages.html' %}
+                <input id="envia_comentario" type="submit" class="btn btn-info" value="Enviar">
+            </form>
 
         </div>
         <div class="col-xl"></div>
-    </div>
-</div>
+        </div>
+
 
 {% endblock %}
