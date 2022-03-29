@@ -6,6 +6,7 @@ from PIL import Image
 from django.conf import settings
 import os
 
+
 class Post(models.Model):
     titulo_post = models.CharField(max_length=255, verbose_name='Titulo')
     autor_post = models.ForeignKey(User, on_delete=models.DO_NOTHING, verbose_name='Autor')
