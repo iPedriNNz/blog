@@ -46,6 +46,8 @@ Para acessar o projeto o endereço de IP é o padrão oferecido pelo Django
 
 * **Pedro Ferreira** - Dev Python - [GITHUB](https://github.com/iPedriNNz) - [Linkedin](https://www.linkedin.com/in/pedroferreiradev/)
 
+* **Créditos para Luiz Otávio Miranda** pelos arquivos HTML, CSS e JS referentes  ao curso "Python do 0 ao Avançado" https://www.udemy.com/user/luiz-otavio-miranda/
+
 ## 📄 Licença
 
 Não se aplica.
