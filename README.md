@@ -55,7 +55,7 @@ Use e abuse do projeto :3
 ## 🎁 Obrigado
 
 * Agradeço a todos que tiraram um tempo para ver meu projeto. Sinta-se à vontade e volte sempre. 🍺 
-* 
+
 ##  Imagens do projeto
 ![Opera Instantâneo_2022-03-30_081632_pedroferreirapy tk](https://user-images.githubusercontent.com/82386291/160827724-6882727c-2f52-4b93-82a4-a79d703fe155.png)
 ![Opera Instantâneo_2022-03-30_081724_pedroferreirapy tk](https://user-images.githubusercontent.com/82386291/160827796-5033b4f6-952d-42d6-99d8-6480568bf5e9.png)
